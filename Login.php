@@ -60,7 +60,7 @@
         <!-- Conditional Rendering -->
         <?php
             if(isset($isWarning) && $isWarning) {
-                echo '  <div class="alert alert-danger" role="alert">
+                echo '  <div class="alert alert-warning" role="alert">
                             Account not found!
                         </div>';
             }
